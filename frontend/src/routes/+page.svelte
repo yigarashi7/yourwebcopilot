@@ -2,7 +2,7 @@
     import { fly,scale } from 'svelte/transition';
     import SearchResultStream from './SearchResultStream.svelte';
 
-    let title = "Your Web Copilot MSP"
+    let title = "Your Web Copilot for MSP"
 
     /**
      * @type {{ role: string; content: string; query:string; urls:string[]; titles:string[]; bing:any[]}[]}
